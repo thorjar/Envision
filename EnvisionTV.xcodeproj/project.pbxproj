@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		163B24C11A49D70C96B38F49 /* JellymaxModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888003CD94114013F4594CBF /* JellymaxModels.swift */; };
+		330BF38C41CC1A9430933B23 /* TVLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A99019565A147DD7384487 /* TVLoginView.swift */; };
+		3FDAEC93D2B623238C11F7A7 /* TVDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA78F14FCD3BCA9C264FFB0 /* TVDetailView.swift */; };
+		424DBF10DACD28A8B24698CA /* AuthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDD4515B08775D3ADF1563D /* AuthStore.swift */; };
+		4389C524CF22655D2ACFC60B /* TVHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BAD26BB09A8B225108CFEF /* TVHomeView.swift */; };
+		9D6DE23FF0FFD25FC38769ED /* PlaybackEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00244F9BCDF907E1DEEA4841 /* PlaybackEngine.swift */; };
+		9DA35C9EC4D08A4B812FD747 /* TVPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F90792DDBA00BF1836C970 /* TVPlayerView.swift */; };
+		A35BD9355597BA78282E148D /* PlaybackEngineControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596B291DD3DD56710200B52A /* PlaybackEngineControls.swift */; };
+		AA1399BDCE6252D7B3FC7297 /* TVCatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37329961230AFB36C5BA458 /* TVCatalogView.swift */; };
+		AD3970E276C13B1478D53FAC /* TVRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415232ACFE3EF065C782262D /* TVRootView.swift */; };
+		AF78F4E425FF930D3F39A84D /* TVPairingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5E915F0C6103FD92B5C478 /* TVPairingView.swift */; };
+		BE5D1B7F7DAB58291D9D08B6 /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5049167A361A2DBFE4B3E10B /* Support.swift */; };
+		C1C06153DFD3DC503A4FA6A4 /* TVTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B50F4B650EA49C1B0E40B9A /* TVTheme.swift */; };
+		C370393714A94E59F1128A88 /* PlaybackEngineSubtitles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CE976FAF59E1DC682268AF /* PlaybackEngineSubtitles.swift */; };
+		CC630A480CD20CF95B2DB835 /* TVModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45E2E619F1661262506D4A0 /* TVModels.swift */; };
+		D18F2B873D19A3FDD96B00F3 /* JellymaxAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832FDB13A2716C637B9FF84D /* JellymaxAPI.swift */; };
+		DD4175059836D8DEBE1F7EA5 /* ItemImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2447A79C7A7AD382BC23C480 /* ItemImage.swift */; };
+		EDF111AFD8F858496A7463CE /* Subtitles.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02487AA1002D7595289F25 /* Subtitles.swift */; };
+		F5C4FED802C682F13EE5CA37 /* TVOpenSubtitlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A0E6F808E48D74DD231D5 /* TVOpenSubtitlesView.swift */; };
+		FE1AA8BDFE51EC775C863981 /* EnvisionTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6DF0B7404C850DDECD479E /* EnvisionTVApp.swift */; };
+		FFEB254A94E982B82CB164F3 /* PlaybackEnginePiP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F6DDB4F4B1ABA74F726CC1 /* PlaybackEnginePiP.swift */; };
+		FFF5253E2EFDA9386CA0B123 /* TVMoviesSeriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E729FC488B29231D4995AD88 /* TVMoviesSeriesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00244F9BCDF907E1DEEA4841 /* PlaybackEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackEngine.swift; sourceTree = "<group>"; };
+		00F6DDB4F4B1ABA74F726CC1 /* PlaybackEnginePiP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackEnginePiP.swift; sourceTree = "<group>"; };
+		2447A79C7A7AD382BC23C480 /* ItemImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemImage.swift; sourceTree = "<group>"; };
+		2F6DF0B7404C850DDECD479E /* EnvisionTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvisionTVApp.swift; sourceTree = "<group>"; };
+		36CE976FAF59E1DC682268AF /* PlaybackEngineSubtitles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackEngineSubtitles.swift; sourceTree = "<group>"; };
+		3F2A0E6F808E48D74DD231D5 /* TVOpenSubtitlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVOpenSubtitlesView.swift; sourceTree = "<group>"; };
+		415232ACFE3EF065C782262D /* TVRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVRootView.swift; sourceTree = "<group>"; };
+		4B50F4B650EA49C1B0E40B9A /* TVTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVTheme.swift; sourceTree = "<group>"; };
+		5049167A361A2DBFE4B3E10B /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
+		596B291DD3DD56710200B52A /* PlaybackEngineControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackEngineControls.swift; sourceTree = "<group>"; };
+		5CA78F14FCD3BCA9C264FFB0 /* TVDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVDetailView.swift; sourceTree = "<group>"; };
+		832FDB13A2716C637B9FF84D /* JellymaxAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JellymaxAPI.swift; sourceTree = "<group>"; };
+		84BAD26BB09A8B225108CFEF /* TVHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVHomeView.swift; sourceTree = "<group>"; };
+		888003CD94114013F4594CBF /* JellymaxModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JellymaxModels.swift; sourceTree = "<group>"; };
+		92957AA15CFCD93C7DF91421 /* EnvisionTV.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = EnvisionTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDD4515B08775D3ADF1563D /* AuthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStore.swift; sourceTree = "<group>"; };
+		AD02487AA1002D7595289F25 /* Subtitles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subtitles.swift; sourceTree = "<group>"; };
+		B4F90792DDBA00BF1836C970 /* TVPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVPlayerView.swift; sourceTree = "<group>"; };
+		B6A99019565A147DD7384487 /* TVLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVLoginView.swift; sourceTree = "<group>"; };
+		E45E2E619F1661262506D4A0 /* TVModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVModels.swift; sourceTree = "<group>"; };
+		E729FC488B29231D4995AD88 /* TVMoviesSeriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVMoviesSeriesView.swift; sourceTree = "<group>"; };
+		EA5E915F0C6103FD92B5C478 /* TVPairingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVPairingView.swift; sourceTree = "<group>"; };
+		F37329961230AFB36C5BA458 /* TVCatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCatalogView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		063AE64F205EB2AC1A3C89DB /* Envision */ = {
+			isa = PBXGroup;
+			children = (
+				ABDD4515B08775D3ADF1563D /* AuthStore.swift */,
+				2447A79C7A7AD382BC23C480 /* ItemImage.swift */,
+				832FDB13A2716C637B9FF84D /* JellymaxAPI.swift */,
+				888003CD94114013F4594CBF /* JellymaxModels.swift */,
+				00244F9BCDF907E1DEEA4841 /* PlaybackEngine.swift */,
+				596B291DD3DD56710200B52A /* PlaybackEngineControls.swift */,
+				00F6DDB4F4B1ABA74F726CC1 /* PlaybackEnginePiP.swift */,
+				36CE976FAF59E1DC682268AF /* PlaybackEngineSubtitles.swift */,
+				AD02487AA1002D7595289F25 /* Subtitles.swift */,
+				5049167A361A2DBFE4B3E10B /* Support.swift */,
+			);
+			path = Envision;
+			sourceTree = "<group>";
+		};
+		37911CFFC97619A6BB62C429 /* EnvisionTV */ = {
+			isa = PBXGroup;
+			children = (
+				2F6DF0B7404C850DDECD479E /* EnvisionTVApp.swift */,
+				F37329961230AFB36C5BA458 /* TVCatalogView.swift */,
+				5CA78F14FCD3BCA9C264FFB0 /* TVDetailView.swift */,
+				84BAD26BB09A8B225108CFEF /* TVHomeView.swift */,
+				B6A99019565A147DD7384487 /* TVLoginView.swift */,
+				E45E2E619F1661262506D4A0 /* TVModels.swift */,
+				E729FC488B29231D4995AD88 /* TVMoviesSeriesView.swift */,
+				3F2A0E6F808E48D74DD231D5 /* TVOpenSubtitlesView.swift */,
+				EA5E915F0C6103FD92B5C478 /* TVPairingView.swift */,
+				B4F90792DDBA00BF1836C970 /* TVPlayerView.swift */,
+				415232ACFE3EF065C782262D /* TVRootView.swift */,
+				4B50F4B650EA49C1B0E40B9A /* TVTheme.swift */,
+			);
+			path = EnvisionTV;
+			sourceTree = "<group>";
+		};
+		6385A8B7E592D3198C9F54CE = {
+			isa = PBXGroup;
+			children = (
+				063AE64F205EB2AC1A3C89DB /* Envision */,
+				37911CFFC97619A6BB62C429 /* EnvisionTV */,
+				CFC9B8C85168683A14B7825F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFC9B8C85168683A14B7825F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92957AA15CFCD93C7DF91421 /* EnvisionTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		883F2DE86C96A5BCFE6BC96C /* EnvisionTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5E85B5992A747CE2A6BA8A1 /* Build configuration list for PBXNativeTarget "EnvisionTV" */;
+			buildPhases = (
+				4BEECD79ADDE3AD0276C0058 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnvisionTV;
+			packageProductDependencies = (
+			);
+			productName = EnvisionTV;
+			productReference = 92957AA15CFCD93C7DF91421 /* EnvisionTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35EF72EBC065FCA259AC684D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					883F2DE86C96A5BCFE6BC96C = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 05257633A41A1ED168C1C99F /* Build configuration list for PBXProject "EnvisionTV" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6385A8B7E592D3198C9F54CE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CFC9B8C85168683A14B7825F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				883F2DE86C96A5BCFE6BC96C /* EnvisionTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BEECD79ADDE3AD0276C0058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424DBF10DACD28A8B24698CA /* AuthStore.swift in Sources */,
+				FE1AA8BDFE51EC775C863981 /* EnvisionTVApp.swift in Sources */,
+				DD4175059836D8DEBE1F7EA5 /* ItemImage.swift in Sources */,
+				D18F2B873D19A3FDD96B00F3 /* JellymaxAPI.swift in Sources */,
+				163B24C11A49D70C96B38F49 /* JellymaxModels.swift in Sources */,
+				9D6DE23FF0FFD25FC38769ED /* PlaybackEngine.swift in Sources */,
+				A35BD9355597BA78282E148D /* PlaybackEngineControls.swift in Sources */,
+				FFEB254A94E982B82CB164F3 /* PlaybackEnginePiP.swift in Sources */,
+				C370393714A94E59F1128A88 /* PlaybackEngineSubtitles.swift in Sources */,
+				EDF111AFD8F858496A7463CE /* Subtitles.swift in Sources */,
+				BE5D1B7F7DAB58291D9D08B6 /* Support.swift in Sources */,
+				AA1399BDCE6252D7B3FC7297 /* TVCatalogView.swift in Sources */,
+				3FDAEC93D2B623238C11F7A7 /* TVDetailView.swift in Sources */,
+				4389C524CF22655D2ACFC60B /* TVHomeView.swift in Sources */,
+				330BF38C41CC1A9430933B23 /* TVLoginView.swift in Sources */,
+				CC630A480CD20CF95B2DB835 /* TVModels.swift in Sources */,
+				FFF5253E2EFDA9386CA0B123 /* TVMoviesSeriesView.swift in Sources */,
+				F5C4FED802C682F13EE5CA37 /* TVOpenSubtitlesView.swift in Sources */,
+				AF78F4E425FF930D3F39A84D /* TVPairingView.swift in Sources */,
+				9DA35C9EC4D08A4B812FD747 /* TVPlayerView.swift in Sources */,
+				AD3970E276C13B1478D53FAC /* TVRootView.swift in Sources */,
+				C1C06153DFD3DC503A4FA6A4 /* TVTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		212688A7A7C450BB306C2C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 18.0;
+			};
+			name = Release;
+		};
+		919C1EB74F1A2314A4E9D5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Configuration/tvOS-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Envision.EnvisionTV;
+				PRODUCT_NAME = EnvisionTV;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		E5456904DA95260C31BFC1A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 18.0;
+			};
+			name = Debug;
+		};
+		EB216C34FF73FDD1F4407A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Configuration/tvOS-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Envision.EnvisionTV;
+				PRODUCT_NAME = EnvisionTV;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05257633A41A1ED168C1C99F /* Build configuration list for PBXProject "EnvisionTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5456904DA95260C31BFC1A0 /* Debug */,
+				212688A7A7C450BB306C2C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B5E85B5992A747CE2A6BA8A1 /* Build configuration list for PBXNativeTarget "EnvisionTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB216C34FF73FDD1F4407A02 /* Debug */,
+				919C1EB74F1A2314A4E9D5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35EF72EBC065FCA259AC684D /* Project object */;
+}

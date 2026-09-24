@@ -1,0 +1,42 @@
+name: EnvisionTV
+options:
+  deploymentTarget:
+    tvOS: "18.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    SWIFT_DEFAULT_ACTOR_ISOLATION: MainActor
+    SWIFT_APPROACHABLE_CONCURRENCY: YES
+targets:
+  EnvisionTV:
+    type: application
+    platform: tvOS
+    sources:
+      - path: EnvisionTV
+      - path: Envision/AuthStore.swift
+      - path: Envision/JellymaxAPI.swift
+      - path: Envision/JellymaxModels.swift
+      - path: Envision/Support.swift
+      - path: Envision/ItemImage.swift
+      - path: Envision/PlaybackEngine.swift
+      - path: Envision/PlaybackEngineControls.swift
+      - path: Envision/PlaybackEnginePiP.swift
+      - path: Envision/PlaybackEngineSubtitles.swift
+      - path: Envision/Subtitles.swift
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: Envision.EnvisionTV
+        PRODUCT_NAME: EnvisionTV
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_FILE: Configuration/tvOS-Info.plist
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: 1
+        TARGETED_DEVICE_FAMILY: "3"
+        CODE_SIGN_STYLE: Automatic
+schemes:
+  EnvisionTV:
+    build:
+      targets:
+        EnvisionTV: all
+    run:
+      config: Debug
