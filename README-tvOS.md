@@ -4,7 +4,7 @@ The tvOS app uses SwiftUI and AVKit with direct references to Envision's existin
 
 ## Open and run
 
-Open `/Users/jaret/github_repos/Envision/EnvisionTV.xcodeproj` and select the **EnvisionTV** scheme. Minimum OS: **tvOS 18**. Choose your signing team to run on an Apple TV. For simulator execution, install a tvOS runtime in Xcode Settings → Components.
+Open `EnvisionTV.xcodeproj` and select the **EnvisionTV** scheme. Minimum OS: **tvOS 18**. Choose your signing team to run on an Apple TV. For simulator execution, install a tvOS runtime in Xcode Settings → Components.
 
 Sign in using your existing Jellymax server URL and account. Use the server's LAN address or hostname, not `localhost` or `127.0.0.1` (which refer to the Apple TV itself). First-run server setup and administration are performed in the existing apps.
 
@@ -28,7 +28,7 @@ The app permits HTTP to support user-configured LAN servers. HTTPS is strongly r
 ## Build without a simulator runtime
 
 ```sh
-xcodebuild -project /Users/jaret/github_repos/Envision/EnvisionTV.xcodeproj \
+xcodebuild -project EnvisionTV.xcodeproj \
   -target EnvisionTV -sdk appletvsimulator \
   SYMROOT=/tmp/envision-tv-products CODE_SIGNING_ALLOWED=NO build
 ```
@@ -36,7 +36,7 @@ xcodebuild -project /Users/jaret/github_repos/Envision/EnvisionTV.xcodeproj \
 The project is generated with XcodeGen (build-time tooling only, not an app dependency). After adding source files, regenerate it:
 
 ```sh
-xcodegen generate --spec /Users/jaret/github_repos/Envision/project-tv.yml
+xcodegen generate --spec project-tv.yml
 ```
 
 ## Scope and release checklist
