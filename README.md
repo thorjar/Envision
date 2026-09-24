@@ -1,120 +1,144 @@
-Envision
+# Envision
 
-Envision is a native Swift media client for macOS, iPhone, and iPad. It connects to a running Jellymax server and provides a native Apple-platform interface for browsing and playing media.
+Envision is a native Swift media client for **macOS, iPhone, and iPad**.
+It connects to a running **Jellymax server** and provides a native
+Apple-platform interface for browsing and playing media.
 
-Overview
+## Overview
 
-Envision acts as the client application for Jellymax. Rather than hosting or managing media itself, Envision connects to a Jellymax server over the network and uses the server to access media libraries, metadata, streams, and other server functionality.
+Envision acts as the client application for Jellymax. Rather than
+hosting or managing media itself, Envision connects to a Jellymax server
+over the network to access media libraries, metadata, streams, and other
+server functionality.
 
-┌─────────────────────┐
-│      Envision        │
-│                     │
-│  macOS / iOS / iPadOS
-└──────────┬──────────┘
-           │
-           │ HTTP / API
-           ▼
-┌─────────────────────┐
-│      Jellymax        │
-│       Server         │
-└──────────┬──────────┘
-           │
-           ▼
-      Media Library
+``` text
+┌─────────────────────────┐
+│         Envision         │
+│                         │
+│   macOS / iOS / iPadOS  │
+└────────────┬────────────┘
+             │
+             │ HTTP / API
+             ▼
+┌─────────────────────────┐
+│         Jellymax         │
+│          Server          │
+└────────────┬────────────┘
+             │
+             ▼
+        Media Library
+```
 
-Supported Platforms
+## Supported Platforms
 
 Envision is designed for Apple platforms using Swift and SwiftUI.
 
-* macOS
-* iOS / iPhone
-* iPadOS / iPad
+-   macOS
+-   iPhone
+-   iPad
 
-Requirements
+## Requirements
 
 To use Envision, you need:
 
-* A Mac, iPhone, or iPad running a supported OS version
-* A running Jellymax server
-* Network access to the Jellymax server
-* The Jellymax server address and port
+-   A Mac, iPhone, or iPad running a supported OS version
+-   A running Jellymax server
+-   Network access to the Jellymax server
+-   The Jellymax server address and port
 
 For example:
 
+``` text
 http://192.168.1.100:8097
+```
 
 or a remotely hosted server:
 
+``` text
 https://jellymax.example.com
+```
 
-Connecting to Jellymax
+## Connecting to Jellymax
 
 When Envision starts, enter the address of your Jellymax server.
 
-Envision will attempt to establish a connection to the server before allowing you to access your media library.
+Envision will attempt to establish a connection to the server before
+allowing access to the media library.
 
-The device running Envision must be able to reach the Jellymax server. For servers running on a local network, ensure that both devices are connected to the same network or otherwise have network connectivity between them.
+For servers running on a local network, ensure that the device running
+Envision can reach the Jellymax server over the network.
 
-Building
+## Building
 
-Requirements
+### Requirements
 
-* macOS
-* Xcode
-* Swift toolchain supported by the project
+-   macOS
+-   Xcode
+-   A Swift toolchain supported by the project
 
 Clone the repository:
 
+``` bash
 git clone https://github.com/thorjar/Envision.git
 cd Envision
+```
 
-Open the Xcode project:
+Open the project in Xcode:
 
+``` bash
 open Envision.xcodeproj
+```
 
-Select the desired target and destination in Xcode:
+Select the desired target and destination in Xcode and build the
+application.
 
-Envision
-├── My Mac
-├── iPhone
-└── iPad
+Supported destinations include:
 
-Then build and run the project using Xcode.
+-   My Mac
+-   iPhone
+-   iPad
 
-Project Structure
+## Project Structure
 
+``` text
 Envision/
 ├── Envision/                 # Main Envision application
-├── EnvisionTV/               # tvOS-related client code
+├── EnvisionTV/               # tvOS client
 ├── Envision.xcodeproj/       # Main Xcode project
 ├── EnvisionTV.xcodeproj/     # tvOS Xcode project
 ├── Configuration/            # Application configuration
 ├── Tests/                    # Tests
 ├── project-tv.yml            # tvOS project configuration
 └── README-tvOS.md            # tvOS documentation
+```
 
-Technology
+## Technology
 
 Envision is built primarily with:
 
-* Swift
-* SwiftUI
-* AVFoundation / AVPlayer
-* Native Apple networking and media APIs
-* Xcode
+-   Swift
+-   SwiftUI
+-   AVFoundation / AVPlayer
+-   Native Apple networking and media APIs
+-   Xcode
 
-The application is designed to provide a native Apple-platform experience rather than wrapping a web interface.
+The application is designed to provide a native Apple-platform
+experience rather than wrapping a web interface.
 
-Jellymax
+## Jellymax
 
-Envision requires a Jellymax server to provide the backend media services.
+Envision requires a Jellymax server to provide its backend media
+services.
 
-The Jellymax server is responsible for serving media and exposing the APIs used by Envision. Envision provides the native client interface used to interact with those services.
+Jellymax is responsible for serving media and exposing the APIs used by
+Envision. Envision provides the native client interface for interacting
+with those services.
 
-Development Status
+## Development Status
 
-Envision is under active development. Features, APIs, project structure, and platform support may change as development continues.
+Envision is under active development. Features, APIs, project structure,
+and platform support may change as development continues.
 
-License
+## License
 
 See the repository license for information about usage and distribution.
